@@ -7,7 +7,7 @@ cache:
 install:
 - yarn install
 script:
-- yarn run test:performance
+- yarn run test:performance:travis
 notifications:
   email:
   - stollenwerk@kitconcept.com
