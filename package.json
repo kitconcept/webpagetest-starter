@@ -11,6 +11,7 @@
   },
   "scripts": {
     "test:performance": "node_modules/webpagetest/bin/webpagetest test kitconcept.com.script.txt -k ${WEBPAGETEST_PRIVATE_KEY} --poll --specs kitconcept.com.spec.json --reporter spec --server=https://www.webpagetest.org/ || true",
-    "test:performance:ci": "node_modules/webpagetest/bin/webpagetest test kitconcept.com.script.txt -k ${WEBPAGETEST_PRIVATE_KEY} --poll --specs kitconcept.com.spec.json --reporter spec --server=https://www.webpagetest.org/ --reporter xunit > kitconcept.com.xml || true"
+    "test:performance:travis": "node_modules/webpagetest/bin/webpagetest test kitconcept.com.script.txt -k ${WEBPAGETEST_PRIVATE_KEY} --poll --specs kitconcept.com.spec.json --reporter spec --server=https://www.webpagetest.org/",
+    "test:performance:jenkins": "node_modules/webpagetest/bin/webpagetest test kitconcept.com.script.txt -k ${WEBPAGETEST_PRIVATE_KEY} --poll --specs kitconcept.com.spec.json --reporter spec --server=https://www.webpagetest.org/ --reporter xunit > kitconcept.com.xml || true"
   }
 }
