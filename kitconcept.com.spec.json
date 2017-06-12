@@ -1,0 +1,47 @@
+{
+    "defaults": {
+        "suiteName": "Performance Test Suite for kitconcept.com"
+    },
+    "median": {
+        "firstView": {
+            "requests": 50,
+            "TTFB": 750,
+            "render": 3500,
+            "loadTime": 4500,
+            "fullyLoaded": 5500,
+            "SpeedIndex": 3500,
+            "responses_404": 1,
+            "score_gzip": {
+                "min": 99
+            },
+            "score_keep-alive": {
+                "min": 99
+            },
+            "score_progressive_jpeg": {
+                "min": 99
+            },
+            "breakdown": {
+                "html": {
+                    "requests": 4,
+                    "bytes": 15000
+                },
+                "js": {
+                    "requests": 3,
+                    "bytes": 300000
+                },
+                "css": {
+                    "requests": 2,
+                    "bytes": 150000
+                },
+                "font": {
+                    "requests": 1,
+                    "bytes": 1
+                },
+                "image": {
+                    "requests": 45,
+                    "bytes": 750000
+                }
+            }
+        }
+    }
+}
