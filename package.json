@@ -1,0 +1,9 @@
+{
+  "name": "webpagetest-starter",
+  "version": "1.0.0",
+  "description": "Starter for performance tests with webpagetest",
+  "main": "index.js",
+  "repository": "https://github.com/kitconcept/webpagetest-starter",
+  "author": "kitconcept GmbH",
+  "license": "MIT"
+}
